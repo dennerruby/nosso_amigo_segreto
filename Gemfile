@@ -44,7 +44,7 @@ gem 'materialize-sass', '~> 0.99.0'
 gem 'material_icons'
 gem 'redis'
 gem 'sidekiq'
-
+gem 'rake', '~> 13.0', '>= 13.0.1'
 group :test do
   gem "factory_bot_rails"
   gem "ffaker"
