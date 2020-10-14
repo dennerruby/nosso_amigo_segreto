@@ -28,3 +28,5 @@ COPY Gemfile ./
 ENV BUNDLE_PATH /box
 # Copia nosso código para dentro do container
 COPY . .
+
+ENV BUNDLER_VERSION=2.1.2
